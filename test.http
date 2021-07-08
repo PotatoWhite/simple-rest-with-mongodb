@@ -1,0 +1,14 @@
+###
+POST http://localhost:8080/students/save
+Content-Type: application/json
+
+{
+  "name": "potato",
+  "studentNumber": 123456789,
+  "email": "potato@example.com",
+  "courses" : ["course1", "course2", "course3"],
+  "gpa": 10
+}
+
+###
+GET localhost:8080/students/
